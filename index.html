@@ -28,12 +28,12 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 <![endif]-->
 <script type="text/javascript" language="JavaScript">
   var i = 0;
-  var txt = ' Hello, World! My name is Catherine Fang. I am a designer, developer, and human based in America. ';
+  var txt = ' Hello, World! My name is Catherine Fang. I am a designer, developer, and human based in America. ☺';
   var speed = 75;
   
   function typeWriter() {
     if (i < txt.length) {
-      document.getElementById("demo").innerHTML += txt.charAt(i);
+      document.getElementById("typewriter").innerHTML += txt.charAt(i);
       i++;
       setTimeout(typeWriter, speed);
     }
@@ -86,7 +86,7 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
               <!-- <h2> Welcome to my Personal Website 
                 <br/>
               </h2> -->
-              <h2 id="demo">
+              <h2 id="typewriter">
                 <script type="text/javascript" language="JavaScript">
                   typeWriter();
                 </script>
