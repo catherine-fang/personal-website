@@ -227,7 +227,7 @@ h2 {
   font-family: 'Kaushan Script', cursive;
     font-weight: normal;
     margin: 0px 0 25px 0;
-    text-align: center;
+    /* text-align: center; */
 /*     text-transform: uppercase; */
 }
 
@@ -493,40 +493,40 @@ a.read_more:hover {
 }
 
 
-/* Education
+/* MoreAbout
 ---------------------------------*/
 
-#education {
+#more-about {
     padding: 60px 0px;
     background: #fff1e6;
 /*   background: white; */
+    text-align: left;
 }
-#education h2{
+#more-about h2{
 /*   color: #fff; */
+  font-family: 'Raleway', sans-serif;
+  font-size: 38px;
   color: black;
-
-}
-.education_wrapper {
-    padding: 40px 0 40px;
 }
 
-.education_section {
+.more-about_wrapper {
+    padding: 0 100px 0;
 }
 
-.education_block {
-    text-align: center;
+.more-about_block {
+    /* text-align: center; */
     padding-left: 15px;
     padding-right: 15px; 
-	  position: relative;
+	/* position: relative; */
 }
 
-.education_icon {  
+.more-about_icon {  
     width: 190px;
     height: 185px;
     margin: 0px auto 25px; 
 }
 
-.education_icon span {
+.more-about_icon span {
     background: transparent; 
     display: block;
     height: 100%;
@@ -536,7 +536,7 @@ a.read_more:hover {
     border-radius: 50%;
 }
 
-.education_icon i {
+.more-about_icon i {
   color: #FFFFFF;
 font-size: 40px;
 margin-top: 0;
@@ -547,25 +547,30 @@ display: block;
 text-align: center;
 }
 
-.education_block h3 {
+.more-about_wrapper h3 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 25px;
+    /* font-weight: 600; */
+    font-size: 28px;
 /*     color: #fff; */
   color: black;
     /* margin: 35px 0 15px;  */
-    margin: 35px -100px 15px; 
 }
-#education h6{
+
+#more-about h6{
 /* color:#fff; */
   color: black;
 }
-.education_block p {
-    font-size: 16px;
+.more-about_wrapper p {
+    font-family: "Open Sans";
+    font-size:18px;
 /*     color: #fff; */
-  color: black;
+  /* color: black; */
     /* margin: 0 0 35px 0;  */
-    margin: 0 -100px 35px -100px;
+    /* margin: 0 -100px 35px -100px; */
+}
+.more-about_list {
+    font-family: "Open Sans";
+    font-size:18px;
 }
 
 /* Experience
@@ -669,7 +674,7 @@ text-align: center;
 ---------------------------------*/
 
 #service {
-    padding: 60px 0px;
+    padding: 30px 0px;
 /*     background: #CE1139; */
   background: #F6B4A5;
 }
@@ -677,9 +682,11 @@ text-align: center;
 /*   color: #fff; */
   color: black;
   text-transform: uppercase;
-/*   font-family: 'Delius Unicase', cursive; */
-  font-family: 'Caveat Brush', cursive;
-  font-size: 72px;
+  /* font-family: 'Delius Unicase', cursive; */
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Caveat Brush', cursive; */
+  font-size: 36px;
+  text-align: center;
 
 }
 .service_wrapper {
@@ -1050,12 +1057,12 @@ background-position-y: 70px;
 	background-size: auto 100%;
 }
 .about-us{
-	margin-top: 70px;
+	margin-top: 50px;
 	margin-bottom: 50px;
 }
 .about-us h3{
   font-family: 'Montserrat', sans-serif;
-	font-size:28px;
+  font-size:28px;
 }
 .points{ 
 	margin-bottom: 10px;
@@ -1458,7 +1465,8 @@ border: 1px solid #CE1139;
 
 .footer_bottom {
     /* border-top: 1px solid #3C3A3A; */
-    padding: 25px 0;
+    padding: 0 0 25px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .footer_bottom span {
@@ -2146,7 +2154,7 @@ padding: 20px 0 20px;
 margin-bottom:20px;
 }
 #aboutUs h3{
-font-size:26px;
+font-size:32px;
 line-height:22px;
 }
 .service_block h3 { 
