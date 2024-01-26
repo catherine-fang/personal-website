@@ -259,6 +259,15 @@ h6 {
     margin: 0 0 60px 0;
 }
 
+#Portfolio h6 {
+    font-family: 'Raleway', sans-serif;
+    /* font-weight: 600; */
+    font-size: 18px;
+/*     color: #fff; */
+    color: grey;
+    /* margin: 35px 0 15px;  */
+}
+
 p {
     line-height: 24px;
     margin: 0;
@@ -923,6 +932,10 @@ a.contact_btn:hover {
 .portfolio h3 {
   /* font-family: 'Montserrat', sans-serif; */
   font-size:28px;
+}
+
+#portfolio-add {
+    font-size: 32px;
 }
 
 img {
