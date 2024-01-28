@@ -942,6 +942,24 @@ img {
     max-width: 100%;
 }
 
+.portfolio-row {
+    /* display:inline-block; */
+    display: flex;
+    justify-content: center;
+}
+
+.left-column {
+    text-align: left;
+    width: 50%;
+    transform: translate(-2.5%);
+}
+
+.right-column {
+    text-align: left;
+    width: 50%;
+    transform: translate(2.5%);
+}
+
 /* no transition on .isotope container */
 
 .isotope .isotope-item {
